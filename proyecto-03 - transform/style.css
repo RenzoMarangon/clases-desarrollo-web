@@ -1,0 +1,64 @@
+.grad{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to top, red, yellow);
+    background: radial-gradient(ellipse, red, yellow);
+    background: radial-gradient(circle, navy, pink, blueviolet);
+
+    /* ejeX eje Y */
+    transform:translate(10px, 10px); 
+    transform:translateX(10px, 10px); 
+    transform:translateY(10px, 10px); 
+
+    transform:rotate(45deg); 
+    transform:rotateX(45deg); 
+    transform:rotateY(45deg); 
+
+
+    /* Valores mayores a 1 agrandan, valores entre 0 y 1 achican */
+    transform: scale(1.1);
+
+    transform: skew(20deg, 10deg);
+    transform: skewX(20deg); 
+    transform: skewY(20deg);
+
+
+
+}
+
+
+
+/* .Boton:hover{
+    transform: scale(1.1);
+} */
+
+.Boton{
+    /* animation-name: animacion;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; */
+
+    animation: animacion 2s infinite ease-in-out;
+}
+.input:focus{
+    
+}
+
+@keyframes animacion {
+    0%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+/* animate.css  animate__animated */
+
+
+/* https://www.freecodecamp.org/news/an-animated-guide-to-flexbox-d280cf6afc35 */
