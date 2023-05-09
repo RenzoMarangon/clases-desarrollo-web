@@ -44,18 +44,44 @@
     
 }
 
-@keyframes animacion {
-    0%{
-        opacity: 1;
-    }
+.animacion{
+  
+  
+  animation:animation 2s infinite;
+  
+  margin:100px;
+}
 
-    50%{
-        opacity: 0;
-    }
+@keyframes animation{
+  0%{
+    transform:scale(.9);
+  }
 
-    100%{
-        opacity: 1;
-    }
+  40%{
+    transform:scale(1.4) rotate(-360deg);
+    
+  }
+  
+  60%{
+    transform:scale(.7);
+    
+  }
+  
+   70%{
+    transform:scale(1.1);
+     
+  }
+  
+  80%{
+    transform:scale(.8);
+  }
+   90%{
+    transform:scale(1.1);
+  }
+  
+  100%{
+    transform:scale(.9);
+  }
 }
 
 /* animate.css  animate__animated */
