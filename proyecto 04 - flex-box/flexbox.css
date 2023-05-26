@@ -26,6 +26,10 @@
     justify-content: flex-start;
 }
 
+.jc-center{
+    justify-content: center;
+}
+
 .jc-flex-end{
     justify-content: flex-end;
     
@@ -41,10 +45,43 @@
     
 }
 
-.jc-flex-start{
-    justify-content: flex-start;
+.jc-space-evenly{
+    justify-content: space-evenly;
     
 }
+
+.ai-stretch{
+    align-items: stretch !important;
+}
+
+.ai-flex-start{
+    align-items: flex-start;
+}
+
+.ai-center{
+    align-items: center;
+}
+
+.ai-flex-end{
+    align-items: flex-end;
+}
+
+.ai-baseline{
+    align-items: baseline;
+}
+
+.fw-nowrap{
+    flex-wrap: nowrap;
+}
+
+.fw-wrap{
+    flex-wrap: wrap;
+}
+
+.fw-wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+
 
 
 

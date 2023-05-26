@@ -31,7 +31,7 @@
             <p>Ejemplo:</p>
             <div class="container rounded-3 p-2 container_ejemplo ">
 
-                <div class="block-flex__label row justify-content-center">
+                <div class="block-flex__labels row justify-content-center">
                     <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger bg-danger text-center"> 
                         <input type="radio" name="display" id="block" checked="true"> 
                         display: block 
@@ -49,11 +49,11 @@
                 <div class="block-flex d-block">
                     
 
-                    <div class=" violeta  m-1 w-25 rounded-3"></div>
+                    <div class=" violeta  m-1 w-25 rounded-3">1</div>
 
-                    <div class="naranja m-1 w-25  rounded-3"></div>
+                    <div class="naranja m-1 w-25  rounded-3">2</div>
 
-                    <div class="azul m-1 w-25  rounded-3"></div>
+                    <div class="azul m-1 w-25  rounded-3">3</div>
 
 
                      
@@ -75,7 +75,8 @@
 
             <div class="container rounded-3 p-2 container_ejemplo ">
   
-                <div class="row justify-content-center ">
+                <div class="block-flex__labels row justify-content-center ">
+                    
                     <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger bg-danger"> 
                         <input type="radio" name="display" id="row" checked="true"> 
                         flex-direction: row 
@@ -99,19 +100,19 @@
                 
                 
                 
-                 <p class="text-center mx-auto my-3 p-2 bg-success w-50 rounded-2 text-light">
+                 <p class="block-flex__title text-center mx-auto my-3 p-2 bg-success w-50 rounded-2 text-light">
                     display: flex;<br>
                     flex-direction: row;
                 </p>
 
 
-                <div class="flex-direction fd-row d-flex">
+                <div class="block-flex fd-row d-flex">
 
-                    <div class=" violeta  m-1 w-25 rounded-3"></div>
+                    <div class=" violeta  m-1 w-25 rounded-3">1</div>
 
-                    <div class=" azul  m-1 w-25 rounded-3"></div>
+                    <div class=" azul  m-1 w-25 rounded-3">2</div>
 
-                    <div class=" naranja  m-1 w-25 rounded-3"></div>
+                    <div class=" naranja  m-1 w-25 rounded-3">3</div>
                 </div>
 
             </div>
@@ -132,54 +133,53 @@
 
             <div class="container rounded-3 p-2 container_ejemplo">
 
-                <div class="row justify-content-center">
+                <div class="block-flex__labels row justify-content-center">
                     
                     <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger bg-danger"> 
-                        <input type="radio" name="display" id="flex-start" checked="true"> 
+                        <input type="radio" name="display" id="jc-flex-start" checked="true"> 
                         justify-content: flex-start;
                     </label>
 
                     <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger"> 
-                        <input type="radio" name="display" id="center"> 
+                        <input type="radio" name="display" id="jc-center"> 
                         justify-content: center;
                     </label>
                     
                     <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger" >
-                        <input type="radio" name="display" id="flex-end">
+                        <input type="radio" name="display" id="jc-flex-end">
                         justify-content: flex-end;
                     </label>
 
                     <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger">
-                        <input type="radio" name="display" id="space-between">
+                        <input type="radio" name="display" id="jc-space-between">
                         justify-content: space-between;
                     </label class="col-md-3 col-xs-2">
 
                     <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger">
-                        <input type="radio" name="display" id="space-around">
+                        <input type="radio" name="display" id="jc-space-around">
                         justify-content: space-around;
                     </label>
 
                     <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger">
-                        <input type="radio" name="display" id="space-evenly">
+                        <input type="radio" name="display" id="jc-space-evenly">
                         justify-content: space-evenly;
                     </label>
                 </div>
                 
-                 <p class="text-center mx-auto my-3 p-2 bg-success w-50 rounded-2 text-light">
+                 <p class="block-flex__title text-center mx-auto my-3 p-2 bg-success w-50 rounded-2 text-light">
 
                     display:  flex;<br>
-                    flex-direction: row;<br>
                     Justify-content: flex-start;
                 </p>
 
 
-                <div class=" d-flex fd-row jc-flex-start">
+                <div class="block-flex d-flex fd-row jc-flex-start">
                     
-                    <div class="violeta m-1 w-25 rounded-3"></div>
+                    <div class="violeta m-1 w-25 rounded-3">1</div>
 
-                    <div class="azul m-1 w-25 rounded-3"></div>
+                    <div class="azul m-1 w-25 rounded-3">2</div>
 
-                    <div class="naranja m-1 w-25 rounded-3"></div>   
+                    <div class="naranja m-1 w-25 rounded-3">3</div>   
 
                 </div>
 
@@ -187,6 +187,7 @@
 
         </article>
 
+        <!-- ALIGN ITEMS -->
 
         <article class="container p-2 p-md-4 mb-4 main_article">
 
@@ -199,10 +200,9 @@
             <p>Ejemplo:</p>
 
 
-            <p class="text-center mx-auto my-3 p-2 bg-success w-50 rounded-2 text-light">
+            <p class="block-flex__title text-center mx-auto my-3 p-2 bg-success w-50 rounded-2 text-light">
 
                 display:  flex;<br>
-                flex-direction: row;<br>
                 align-items: stretch;
             </p>
 
@@ -210,53 +210,51 @@
             <div class="container rounded-3 m-1 p-2 container_ejemplo">
 
                 
-                <div class="row justify-content-center">
+                <div class="block-flex__labels row justify-content-center">
                     <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger bg-danger"> 
-                        <input type="radio" name="display" id="stretch" checked="true" > 
-                        align-items: stretch; (por defecto)
+                        <input type="radio" name="display" id="ai-stretch" checked="true" > 
+                        align-items: stretch;
                     </label>
     
                     <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger"> 
-                        <input type="radio" name="display" id="flex-start"> 
+                        <input type="radio" name="display" id="ai-flex-start"> 
                         align-items: flex-start;
                     </label>
     
                     <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger"> 
-                        <input type="radio" name="display" id="center"> 
+                        <input type="radio" name="display" id="ai-center"> 
                         align-items: center;
                     </label>
                     
                     <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger" >
-                        <input type="radio" name="display" id="flex-end">
+                        <input type="radio" name="display" id="ai-flex-end">
                         align-items: flex-end;
                     </label>
     
                     <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger">
-                        <input type="radio" name="display" id="baseline">
+                        <input type="radio" name="display" id="ai-baseline">
                         align-items: baseline;
                     </label>
     
-                    <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger">
-                        <input type="radio" name="display" id="space-around">
-                        align-items: space-around;
-                    </label>
                 </div>
 
                 
 
-                <div class="d-flex fd-row ai-stretch">
+                <div class="block-flex ai d-flex fd-row ai-stretch">
 
-                    <div class="m-1 w-25 rounded-3 violeta"></div>
+                    <div class="m-1 w-25 rounded-3 violeta">1</div>
 
-                    <div class="m-1 w-25 rounded-3 azul"></div>
+                    <div class="m-1 w-25 rounded-3 azul">2</div>
 
-                    <div class="m-1 w-25 rounded-3 naranja"></div>
+                    <div class="m-1 w-25 rounded-3 naranja">3</div>
 
                 </div>
 
             </div>
 
         </article>
+
+        <!-- FLEX WRAP -->
 
         <article class="container p-2 p-md-4 mb-4 main_article">
 
@@ -268,43 +266,37 @@
             
             <p>Ejemplo:</p>
 
-            <p class="text-center mx-auto my-3 p-2 bg-success w-50 rounded-2 text-light">
+            <p class="block-flex__title text-center mx-auto my-3 p-2 bg-success w-50 rounded-2 text-light">
                 display:  flex;<br>
-                flex-direction: row;<br>
-                aling-items: flex-start;
+                flex-wrap: nowrap;
             </p>
             <div class="container rounded-3 m-1 p-2 container_ejemplo">
 
-                <div class="row justify-content-center">
+                <div class="block-flex__labels row justify-content-center">
                     <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger bg-danger"> 
-                        <input type="radio" name="display" id="nowrap" checked="true"> 
-                        flex-wrap: nowrap; (por defecto)
+                        <input type="radio" name="display" id="fw-nowrap" checked="true"> 
+                        flex-wrap: nowrap; 
                     </label>
     
                     <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger"> 
-                        <input type="radio" name="display" id="wrap"> 
+                        <input type="radio" name="display" id="fw-wrap"> 
                         flex-wrap: wrap;
                     </label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger">
     
                     <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger"> 
-                        <input type="radio" name="display" id="wrap-reverse"> 
+                        <input type="radio" name="display" id="fw-wrap-reverse"> 
                         flex-wrap: wrap-reverse;
                     </label>
                 </div>
 
-                 <p>
-                    display:  flex;<br>
-                    flex-direction: row;<br>
-                    flex-wrap: nowrap;
-                </p>
-
-                <div class="flexbox d-flex fd-row fw-nowrap">
+  
+                <div class="block-flex d-flex fd-row fw-nowrap">
                     
-                    <div class="m-1 w-25 rounded-3 violeta"></div>
+                    <div class="m-1 w-50 rounded-3 violeta">50%</div>
 
-                    <div class="m-1 w-25 rounded-3 azul"></div>
+                    <div class="m-1 w-25 rounded-3 azul">25%</div>
 
-                    <div class="m-1 w-25 rounded-3 naranja"></div>
+                    <div class="m-1 w-50 rounded-3 naranja">50%</div>
 
                 </div>
 
@@ -314,6 +306,151 @@
 
 
 
+
+      
+        <article class="container p-2 p-md-4 mb-4 main_article">
+
+            <h2>¡A practicar!</h2>
+
+
+            <p class="block-flex__title text-center mx-auto my-3 p-2 bg-success w-50 rounded-2 text-light">
+                display:  flex;<br>
+                flex-direction: row;<br>
+                flex-wrap: nowrap;
+            </p>
+            <div class="container rounded-3 m-1 p-2 container_ejemplo">
+
+                <div class="block-flex__labels row justify-content-center d-flex flex-column">
+
+                    <!-- DISPLAY -->
+                    <h3 class="m-2 p-2">
+                        Display
+                    </h3>
+                    <div class="d-flex">
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger  text-center"> 
+                            <input type="radio" name="display" id="block" > 
+                            display: block 
+                        </label>
+                        
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger bg-danger text-center"> 
+                            <input type="radio" name="display" id="flex" checked="true" > 
+                            display: flex 
+                        </label>
+                    </div>
+
+                    <!-- FLEX DIRECTION -->
+                    <h3 class="m-2 p-2">
+                        Flex-direction
+                    </h3>
+                    <div class="d-flex fw-wrap">
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger bg-danger"> 
+                            <input type="radio" name="f-direction" id="row" checked="true"> 
+                            flex-direction: row; 
+                        </label>
+        
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger"> 
+                            <input type="radio" name="f-direction" id="column"> 
+                            flex-direction: column;
+                        </label>
+                        
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger" >
+                            <input type="radio" name="f-direction" id="row-reverse">
+                            flex-direction: row-reverse;
+                        </label>
+        
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger">
+                            <input type="radio" name="f-direction" id="column-reverse">
+                            flex-direction: column-reverse;
+                        </label>
+                    </div>
+
+
+                    <!-- JUSTIFY CONTENT -->
+                    <h3 class="m-2 p-2">
+                        Justify-content
+                    </h3>
+                    <div class="d-flex fw-wrap">
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger bg-danger"> 
+                            <input type="radio" name="j-content" id="jc-flex-start" checked="true"> 
+                            justify-content: flex-start;
+                        </label>
+    
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger"> 
+                            <input type="radio" name="j-content" id="jc-center"> 
+                            justify-content: center;
+                        </label>
+                        
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger" >
+                            <input type="radio" name="j-content" id="jc-flex-end">
+                            justify-content: flex-end;
+                        </label>
+    
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger">
+                            <input type="radio" name="j-content" id="jc-space-between">
+                            justify-content: space-between;
+                        </label class="col-md-3 col-xs-2">
+    
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger">
+                            <input type="radio" name="j-content" id="jc-space-around">
+                            justify-content: space-around;
+                        </label>
+    
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger">
+                            <input type="radio" name="j-content" id="jc-space-evenly">
+                            justify-content: space-evenly;
+                        </label>
+                    </div>
+
+
+                    <!-- ALIGN ITEMS -->
+                    <h3 class="m-2 p-2">
+                        Align items
+                    </h3>
+                    <div class="d-flex fw-wrap">
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger bg-danger"> 
+                            <input type="radio" name="a-items" id="ai-stretch" checked="true" > 
+                            align-items: stretch;
+                        </label>
+        
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger"> 
+                            <input type="radio" name="a-items" id="ai-flex-start"> 
+                            align-items: flex-start;
+                        </label>
+        
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger"> 
+                            <input type="radio" name="a-items" id="ai-center"> 
+                            align-items: center;
+                        </label>
+                        
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger" >
+                            <input type="radio" name="a-items" id="ai-flex-end">
+                            align-items: flex-end;
+                        </label>
+        
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger">
+                            <input type="radio" name="a-items" id="ai-baseline">
+                            align-items: baseline;
+                        </label>
+                    </div>
+
+                </div>
+
+  
+                <div class="block-flex ai  d-flex fd-row fw-nowrap">
+                    
+                    <div class="m-1 w-25 rounded-3 violeta">1</div>
+
+                    <div class="m-1 w-25 rounded-3 azul">2</div>
+
+                    <div class="m-1 w-25 rounded-3 naranja">3</div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+        
     </main>
 
     <script src="./script.js"></script>
