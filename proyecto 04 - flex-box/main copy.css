@@ -1,0 +1,91 @@
+main{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main_article{
+    width: 50vw;
+    height: 70vh;
+    background-color: #27374d8f;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:space-around;
+
+    color:#acacac;
+    
+
+}
+
+.main_article:first-child{
+    height: 20vh;
+}
+
+.main_article h2{
+    margin-bottom: 20px;
+}
+
+.ejemplo:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.ejemplo .display-f{
+    align-self: center;
+    padding: 5px 10px;
+    margin-top: 30px;
+    background-color: #47A992;
+    color: #fff;
+    border-radius: 5px;
+}
+.ejemplo_inputs{
+    height: 5vh;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.ejemplo_inputs label{
+    margin-right: 50px;
+}
+
+.ejemplo_container{
+    background-color: #526D82;
+    margin-top: 25px;
+    width: 30vw;
+    height: 30vh;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.ejemplo_container__caja{
+    width: 25%;
+    height: 30%;
+    margin: 5px;
+
+    display: flex;
+}
+
+.main_article h4{
+    margin-top: 20px;
+}
+
+h1{
+    color: #000;
+    background-color: #DDE6ED;
+    padding: 5px 10px;
+    border-radius: 10px;
+}

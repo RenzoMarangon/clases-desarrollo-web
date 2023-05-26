@@ -1,152 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body{
-    background: rgb(25,34,47);
-    background: linear-gradient(180deg, rgba(25,34,47,1) 0%, rgba(30,40,47,1) 50%, rgba(42,54,64,1) 100%);    min-height: 100vh;
-    min-height: 100vh;
-    font-size: 18px;
-    font-family: 'Bree Serif', serif;
-
-}
-
-.block{
+.d-block{
     display: block;
 }
 
-.flex{
+.d-flex{
     display: flex;
 }
 
-
-header
-{
-    width: 100%;
-    height: 10vh;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-main{
-    width: 100%;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.fd-column{
     flex-direction: column;
 }
 
-.main_article{
-    width: 50vw;
-    height: 70vh;
-    background-color: #27374d8f;
-    margin: 20px;
-    padding: 50px;
-    border-radius: 10px;
+.fd-row{
+    flex-direction: row;
+}
 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content:space-around;
+.fd-row-reverse{
+    flex-direction: row-reverse;
+}
 
-    color:#acacac;
+.fd-column-reverse{
+    flex-direction: column-reverse;   
+}
+
+.jc-flex-start{
+    justify-content: flex-start;
+}
+
+.jc-flex-end{
+    justify-content: flex-end;
     
-
 }
 
-.main_article:first-child{
-    height: 20vh;
-}
-
-.main_article h2{
-    margin-bottom: 20px;
-}
-
-.ejemplo:last-child{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-
-.ejemplo .display-f{
-    align-self: center;
-    padding: 5px 10px;
-    margin-top: 30px;
-    background-color: #47A992;
-    color: #fff;
-    border-radius: 5px;
-}
-.ejemplo_inputs{
-    height: 5vh;
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
+.jc-space-around{
     justify-content: space-around;
+    
 }
 
-.ejemplo_inputs label{
-    margin-right: 50px;
+.jc-space-between{
+    justify-content: space-between;
+    
 }
 
-.ejemplo_container{
-    background-color: #526D82;
-    margin-top: 25px;
-    width: 30vw;
-    height: 30vh;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.ejemplo_container__caja{
-    width: 25%;
-    height: 30%;
-    margin: 5px;
-
-    display: flex;
-}
-
-.main_article h4{
-    margin-top: 20px;
-}
-
-h1{
-    color: #000;
-    background-color: #DDE6ED;
-    padding: 5px 10px;
-    border-radius: 10px;
+.jc-flex-start{
+    justify-content: flex-start;
     
 }
 
 
 
 
-/*Colores*/
-.violeta
-{
-    background-color: #9384D1;
-}
-
-.azul
-{
-    background-color: #6C9BCF;
-}
 
 
-.naranja
-{
-    background-color: #F97B22;
-}
+
+
+
 
 
 
