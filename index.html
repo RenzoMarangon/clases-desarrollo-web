@@ -100,7 +100,7 @@
                 
                 
                 
-                 <p class="block-flex__title mx-auto my-3 p-2 bg-success w-50 rounded-2 text-light">
+                 <p class="block-flex__title text-center mx-auto my-3 p-2 bg-success w-50 rounded-2 text-light">
                     display: flex;<br>
                     flex-direction: row;
                 </p>
@@ -169,7 +169,6 @@
                  <p class="block-flex__title text-center mx-auto my-3 p-2 bg-success w-50 rounded-2 text-light">
 
                     display:  flex;<br>
-                    flex-direction: row;<br>
                     Justify-content: flex-start;
                 </p>
 
@@ -188,6 +187,7 @@
 
         </article>
 
+        <!-- ALIGN ITEMS -->
 
         <article class="container p-2 p-md-4 mb-4 main_article">
 
@@ -203,7 +203,6 @@
             <p class="block-flex__title text-center mx-auto my-3 p-2 bg-success w-50 rounded-2 text-light">
 
                 display:  flex;<br>
-                flex-direction: row;<br>
                 align-items: stretch;
             </p>
 
@@ -214,7 +213,7 @@
                 <div class="block-flex__labels row justify-content-center">
                     <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger bg-danger"> 
                         <input type="radio" name="display" id="ai-stretch" checked="true" > 
-                        align-items: stretch; <br> (por defecto)
+                        align-items: stretch;
                     </label>
     
                     <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger"> 
@@ -255,6 +254,8 @@
 
         </article>
 
+        <!-- FLEX WRAP -->
+
         <article class="container p-2 p-md-4 mb-4 main_article">
 
             <h2>Flex-wrap</h2>
@@ -267,7 +268,6 @@
 
             <p class="block-flex__title text-center mx-auto my-3 p-2 bg-success w-50 rounded-2 text-light">
                 display:  flex;<br>
-                flex-direction: row;<br>
                 flex-wrap: nowrap;
             </p>
             <div class="container rounded-3 m-1 p-2 container_ejemplo">
@@ -275,7 +275,7 @@
                 <div class="block-flex__labels row justify-content-center">
                     <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger bg-danger"> 
                         <input type="radio" name="display" id="fw-nowrap" checked="true"> 
-                        flex-wrap: nowrap; <br> (por defecto)
+                        flex-wrap: nowrap; 
                     </label>
     
                     <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger"> 
@@ -306,6 +306,151 @@
 
 
 
+
+      
+        <article class="container p-2 p-md-4 mb-4 main_article">
+
+            <h2>¡A practicar!</h2>
+
+
+            <p class="block-flex__title text-center mx-auto my-3 p-2 bg-success w-50 rounded-2 text-light">
+                display:  flex;<br>
+                flex-direction: row;<br>
+                flex-wrap: nowrap;
+            </p>
+            <div class="container rounded-3 m-1 p-2 container_ejemplo">
+
+                <div class="block-flex__labels row justify-content-center d-flex flex-column">
+
+                    <!-- DISPLAY -->
+                    <h3 class="m-2 p-2">
+                        Display
+                    </h3>
+                    <div class="d-flex">
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger  text-center"> 
+                            <input type="radio" name="display" id="block" > 
+                            display: block 
+                        </label>
+                        
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger bg-danger text-center"> 
+                            <input type="radio" name="display" id="flex" checked="true" > 
+                            display: flex 
+                        </label>
+                    </div>
+
+                    <!-- FLEX DIRECTION -->
+                    <h3 class="m-2 p-2">
+                        Flex-direction
+                    </h3>
+                    <div class="d-flex fw-wrap">
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger bg-danger"> 
+                            <input type="radio" name="f-direction" id="row" checked="true"> 
+                            flex-direction: row; 
+                        </label>
+        
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger"> 
+                            <input type="radio" name="f-direction" id="column"> 
+                            flex-direction: column;
+                        </label>
+                        
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger" >
+                            <input type="radio" name="f-direction" id="row-reverse">
+                            flex-direction: row-reverse;
+                        </label>
+        
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger">
+                            <input type="radio" name="f-direction" id="column-reverse">
+                            flex-direction: column-reverse;
+                        </label>
+                    </div>
+
+
+                    <!-- JUSTIFY CONTENT -->
+                    <h3 class="m-2 p-2">
+                        Justify-content
+                    </h3>
+                    <div class="d-flex fw-wrap">
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger bg-danger"> 
+                            <input type="radio" name="j-content" id="jc-flex-start" checked="true"> 
+                            justify-content: flex-start;
+                        </label>
+    
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger"> 
+                            <input type="radio" name="j-content" id="jc-center"> 
+                            justify-content: center;
+                        </label>
+                        
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger" >
+                            <input type="radio" name="j-content" id="jc-flex-end">
+                            justify-content: flex-end;
+                        </label>
+    
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger">
+                            <input type="radio" name="j-content" id="jc-space-between">
+                            justify-content: space-between;
+                        </label class="col-md-3 col-xs-2">
+    
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger">
+                            <input type="radio" name="j-content" id="jc-space-around">
+                            justify-content: space-around;
+                        </label>
+    
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger">
+                            <input type="radio" name="j-content" id="jc-space-evenly">
+                            justify-content: space-evenly;
+                        </label>
+                    </div>
+
+
+                    <!-- ALIGN ITEMS -->
+                    <h3 class="m-2 p-2">
+                        Align items
+                    </h3>
+                    <div class="d-flex fw-wrap">
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger bg-danger"> 
+                            <input type="radio" name="a-items" id="ai-stretch" checked="true" > 
+                            align-items: stretch;
+                        </label>
+        
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger"> 
+                            <input type="radio" name="a-items" id="ai-flex-start"> 
+                            align-items: flex-start;
+                        </label>
+        
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger"> 
+                            <input type="radio" name="a-items" id="ai-center"> 
+                            align-items: center;
+                        </label>
+                        
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger" >
+                            <input type="radio" name="a-items" id="ai-flex-end">
+                            align-items: flex-end;
+                        </label>
+        
+                        <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger">
+                            <input type="radio" name="a-items" id="ai-baseline">
+                            align-items: baseline;
+                        </label>
+                    </div>
+
+                </div>
+
+  
+                <div class="block-flex ai  d-flex fd-row fw-nowrap">
+                    
+                    <div class="m-1 w-25 rounded-3 violeta">1</div>
+
+                    <div class="m-1 w-25 rounded-3 azul">2</div>
+
+                    <div class="m-1 w-25 rounded-3 naranja">3</div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+        
     </main>
 
     <script src="./script.js"></script>
