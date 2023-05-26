@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-box</title>
+    <link rel="stylesheet" href="colores.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="flexbox.css">
+
+    
+</head>
+<body class="container ">
+    <header class="text-center d-flex justify-content-center mb-5">
+        <h1 class="p-4 text-primary-emphasis bg-dark-subtle border bs-dark-border-subtle rounded-3">Flex-box</h1>
+    </header>
+
+    <main w-sm-100>
+        <article class="container p-2 p-md-4 mb-4 main_article">
+            <h2>¿Qué es Flex-box?</h2>
+            <p>Flexbox es una propiedad en css que proporciona una forma eficiente de organizar, alinear y distribuir elementos dentro de un contenedor, independientemente del tamaño de la pantalla o del dispositivo utilizado para visualizar la página web.</p>
+        </article>
+
+        <article class="container p-2 p-md-4 mb-4 main_article">
+            <h2 class="">¿Cómo se utiliza?</h2>
+            <p>Se le asigna la propiedad <b>"display:flex"</b> al elemento padre, es decir, al elemento html que contiene los elementos a organizar </p>
+
+            <p>Ejemplo:</p>
+            <div class="container rounded-3 p-2 container_ejemplo ">
+
+                <div class="block-flex__labels row justify-content-center">
+                    <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger bg-danger text-center"> 
+                        <input type="radio" name="display" id="block" checked="true"> 
+                        display: block 
+                    </label>
+                    
+                    <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger text-center"> 
+                        <input type="radio" name="display" id="flex" > 
+                        display: flex 
+                    </label>
+                </div>
+                
+
+                <p class="block-flex__title  text-center mx-auto my-3 p-2 bg-success w-50 rounded-2 text-light">display: block;</p>
+
+                <div class="block-flex d-block">
+                    
+
+                    <div class=" violeta  m-1 w-25 rounded-3">1</div>
+
+                    <div class="naranja m-1 w-25  rounded-3">2</div>
+
+                    <div class="azul m-1 w-25  rounded-3">3</div>
+
+
+                     
+
+                </div>
+
+            </div>
+        </article>
+
+        <article class="container p-2 p-md-4 mb-4 main_article">
+
+            <h2>Flex-direction</h2>
+
+            <p>
+                Flex-direction afecta a la forma en que los elementos flexibles se distribuyen y alinean dentro del contenedor padre.
+            </p>
+            
+            <p>Ejemplo:</p>
+
+            <div class="container rounded-3 p-2 container_ejemplo ">
+  
+                <div class="block-flex__labels row justify-content-center ">
+                    
+                    <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger bg-danger"> 
+                        <input type="radio" name="display" id="row" checked="true"> 
+                        flex-direction: row 
+                    </label>
+    
+                    <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger"> 
+                        <input type="radio" name="display" id="column"> 
+                        flex-direction: column 
+                    </label>
+                    
+                    <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger" >
+                        <input type="radio" name="display" id="row-reverse">
+                        flex-direction: row-reverse
+                    </label>
+    
+                    <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger">
+                        <input type="radio" name="display" id="column-reverse">
+                        flex-direction: column-reverse
+                    </label>
+                </div>
+                
+                
+                
+                 <p class="block-flex__title mx-auto my-3 p-2 bg-success w-50 rounded-2 text-light">
+                    display: flex;<br>
+                    flex-direction: row;
+                </p>
+
+
+                <div class="block-flex fd-row d-flex">
+
+                    <div class=" violeta  m-1 w-25 rounded-3">1</div>
+
+                    <div class=" azul  m-1 w-25 rounded-3">2</div>
+
+                    <div class=" naranja  m-1 w-25 rounded-3">3</div>
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <article class="container p-2 p-md-4 mb-4 main_article">
+
+            <h2>Justify-content</h2>
+
+            <p>
+                Alinea y distribuye los elementos flexibles a lo largo del eje X dentro de un contenedor padre.
+            </p>
+            
+            <p>Ejemplo:</p>
+
+            <div class="container rounded-3 p-2 container_ejemplo">
+
+                <div class="block-flex__labels row justify-content-center">
+                    
+                    <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger bg-danger"> 
+                        <input type="radio" name="display" id="jc-flex-start" checked="true"> 
+                        justify-content: flex-start;
+                    </label>
+
+                    <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger"> 
+                        <input type="radio" name="display" id="jc-center"> 
+                        justify-content: center;
+                    </label>
+                    
+                    <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger" >
+                        <input type="radio" name="display" id="jc-flex-end">
+                        justify-content: flex-end;
+                    </label>
+
+                    <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger">
+                        <input type="radio" name="display" id="jc-space-between">
+                        justify-content: space-between;
+                    </label class="col-md-3 col-xs-2">
+
+                    <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger">
+                        <input type="radio" name="display" id="jc-space-around">
+                        justify-content: space-around;
+                    </label>
+
+                    <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger">
+                        <input type="radio" name="display" id="jc-space-evenly">
+                        justify-content: space-evenly;
+                    </label>
+                </div>
+                
+                 <p class="block-flex__title text-center mx-auto my-3 p-2 bg-success w-50 rounded-2 text-light">
+
+                    display:  flex;<br>
+                    flex-direction: row;<br>
+                    Justify-content: flex-start;
+                </p>
+
+
+                <div class="block-flex d-flex fd-row jc-flex-start">
+                    
+                    <div class="violeta m-1 w-25 rounded-3">1</div>
+
+                    <div class="azul m-1 w-25 rounded-3">2</div>
+
+                    <div class="naranja m-1 w-25 rounded-3">3</div>   
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <article class="container p-2 p-md-4 mb-4 main_article">
+
+            <h2>Align-items</h2>
+
+            <p>
+                Alinea y distribuye los elementos flexibles a lo largo del eje Y dentro de un contenedor padre.
+            </p>
+            
+            <p>Ejemplo:</p>
+
+
+            <p class="block-flex__title text-center mx-auto my-3 p-2 bg-success w-50 rounded-2 text-light">
+
+                display:  flex;<br>
+                flex-direction: row;<br>
+                align-items: stretch;
+            </p>
+
+
+            <div class="container rounded-3 m-1 p-2 container_ejemplo">
+
+                
+                <div class="block-flex__labels row justify-content-center">
+                    <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger bg-danger"> 
+                        <input type="radio" name="display" id="ai-stretch" checked="true" > 
+                        align-items: stretch; <br> (por defecto)
+                    </label>
+    
+                    <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger"> 
+                        <input type="radio" name="display" id="ai-flex-start"> 
+                        align-items: flex-start;
+                    </label>
+    
+                    <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger"> 
+                        <input type="radio" name="display" id="ai-center"> 
+                        align-items: center;
+                    </label>
+                    
+                    <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger" >
+                        <input type="radio" name="display" id="ai-flex-end">
+                        align-items: flex-end;
+                    </label>
+    
+                    <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger">
+                        <input type="radio" name="display" id="ai-baseline">
+                        align-items: baseline;
+                    </label>
+    
+                </div>
+
+                
+
+                <div class="block-flex ai d-flex fd-row ai-stretch">
+
+                    <div class="m-1 w-25 rounded-3 violeta">1</div>
+
+                    <div class="m-1 w-25 rounded-3 azul">2</div>
+
+                    <div class="m-1 w-25 rounded-3 naranja">3</div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+        <article class="container p-2 p-md-4 mb-4 main_article">
+
+            <h2>Flex-wrap</h2>
+
+            <p>
+                Controla el tamaño de los elementos dentro de un contenedor, es decir, verifica que se mantenga el tamaño establecido, y si el contenedor no tiene espacio, ubica los elementos en una nueva linea
+            </p>
+            
+            <p>Ejemplo:</p>
+
+            <p class="block-flex__title text-center mx-auto my-3 p-2 bg-success w-50 rounded-2 text-light">
+                display:  flex;<br>
+                flex-direction: row;<br>
+                flex-wrap: nowrap;
+            </p>
+            <div class="container rounded-3 m-1 p-2 container_ejemplo">
+
+                <div class="block-flex__labels row justify-content-center">
+                    <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger bg-danger"> 
+                        <input type="radio" name="display" id="fw-nowrap" checked="true"> 
+                        flex-wrap: nowrap; <br> (por defecto)
+                    </label>
+    
+                    <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger"> 
+                        <input type="radio" name="display" id="fw-wrap"> 
+                        flex-wrap: wrap;
+                    </label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger">
+    
+                    <label class="col-md-3 col-xs-2 m-1 bg-opacity-75 rounded-2 border border-danger"> 
+                        <input type="radio" name="display" id="fw-wrap-reverse"> 
+                        flex-wrap: wrap-reverse;
+                    </label>
+                </div>
+
+  
+                <div class="block-flex d-flex fd-row fw-nowrap">
+                    
+                    <div class="m-1 w-50 rounded-3 violeta">50%</div>
+
+                    <div class="m-1 w-25 rounded-3 azul">25%</div>
+
+                    <div class="m-1 w-50 rounded-3 naranja">50%</div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+    </main>
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
