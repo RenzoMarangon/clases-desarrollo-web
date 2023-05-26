@@ -24,9 +24,9 @@ input{
 label{
     cursor: pointer;
     transition: all .3s;
-    text-align: center;
-    align-items: center;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 label:hover{
     transform: scale(1.05);
