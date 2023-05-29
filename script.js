@@ -95,7 +95,7 @@ const cambiarClasesDelEjemplo = ( labelsContainer, container, title ) =>
                 case 'row':
                 {
                     flexDirection = ' fd-row';
-                    flexDirectionTitle="<br> flex-direction: row";
+                    flexDirectionTitle="<br> flex-direction: row;";
                     input.parentNode.classList = classLabelConBG;
                     break;
                 }
@@ -103,21 +103,21 @@ const cambiarClasesDelEjemplo = ( labelsContainer, container, title ) =>
                 case 'column':
                 {
                     flexDirection = ' fd-column';
-                    flexDirectionTitle="<br> flex-direction: column";
+                    flexDirectionTitle="<br> flex-direction: column;";
                     input.parentNode.classList = classLabelConBG;
                     break;
                 }
                 case 'row-reverse':
                 {
                     flexDirection = ' fd-row-reverse';
-                    flexDirectionTitle="<br> flex-direction: row-reverse";
+                    flexDirectionTitle="<br> flex-direction: row-reverse;";
                     input.parentNode.classList = classLabelConBG;
                     break;
                 }
                 case 'column-reverse':
                 {
                     flexDirection = ' fd-column-reverse';
-                    flexDirectionTitle="<br> flex-direction: column-reverse";
+                    flexDirectionTitle="<br> flex-direction: column-reverse;";
                     input.parentNode.classList = classLabelConBG;
                     break;
                 }
@@ -126,49 +126,49 @@ const cambiarClasesDelEjemplo = ( labelsContainer, container, title ) =>
                 case 'jc-flex-start':
                 {
                     justifyContent = ' jc-flex-start';
-                    justifyContentTitle="<br> justify-content: flex-start";
+                    justifyContentTitle="<br> justify-content: flex-start;";
                     input.parentNode.classList = classLabelConBG;
                     break;
                 }
                 case 'jc-center':
                 {
                     justifyContent = ' jc-center';
-                    justifyContentTitle="<br> justify-content: center";
+                    justifyContentTitle="<br> justify-content: center;";
                     input.parentNode.classList = classLabelConBG;
                     break;
                 }
                 case 'jc-flex-end':
                 {
                     justifyContent = ' jc-flex-end';
-                    justifyContentTitle="<br> justify-content: flex-end";
+                    justifyContentTitle="<br> justify-content: flex-end;";
                     input.parentNode.classList = classLabelConBG;
                     break;
                 }
                 case 'jc-space-between':
                 {
                     justifyContent = ' jc-space-between';
-                    justifyContentTitle="<br> justify-content: space-between";
+                    justifyContentTitle="<br> justify-content: space-between;";
                     input.parentNode.classList = classLabelConBG;
                     break;
                 }
                 case 'jc-space-around':
                 {
                     justifyContent = ' jc-space-around';
-                    justifyContentTitleL="<br> justify-content: space-around";
+                    justifyContentTitleL="<br> justify-content: space-around;";
                     input.parentNode.classList = classLabelConBG;
                     break;
                 }
                 case 'jc-space-evenly':
                 {
                     justifyContent = ' jc-space-evenly';
-                    justifyContentTitle="<br> justify-content: space-evenly";
+                    justifyContentTitle="<br> justify-content: space-evenly;";
                     input.parentNode.classList = classLabelConBG;
                     break;
                 }
                 case 'jc-flex-end':
                 {
                     justifyContent = ' jc-flex-end';
-                    justifyContentTitle="<br> justify-content: flex-end";
+                    justifyContentTitle="<br> justify-content: flex-end;";
                     input.parentNode.classList = classLabelConBG;
                     break;
                 }
@@ -176,36 +176,36 @@ const cambiarClasesDelEjemplo = ( labelsContainer, container, title ) =>
                 //ALIGN ITEMS
                 case 'ai-stretch':
                 {
-                    alignItems = ' ai ai-stretch';
-                    alignItemsTitle="<br> align-items: stretch";
+                    alignItems = ' ai ai-stretch;';
+                    alignItemsTitle="<br> align-items: stretch;";
                     input.parentNode.classList = classLabelConBG;
                     break;
                 }
                 case 'ai-flex-start':
                 {
-                    alignItems = ' ai ai-flex-start';
-                    alignItemsTitle="<br> align-items: flex-start";
+                    alignItems = ' ai ai-flex-start;';
+                    alignItemsTitle="<br> align-items: flex-start;";
                     input.parentNode.classList = classLabelConBG;
                     break;
                 }
                 case 'ai-center':
                 {
-                    alignItems = ' ai ai-center';
-                    alignItemsTitle="<br> align-items: center";
+                    alignItems = ' ai ai-center;';
+                    alignItemsTitle="<br> align-items: center;";
                     input.parentNode.classList = classLabelConBG;
                     break;
                 }
                 case 'ai-flex-end':
                 {
-                    alignItems = ' ai ai-flex-end';
-                    alignItemsTitle="<br> align-items: flex-end";
+                    alignItems = ' ai ai-flex-end;';
+                    alignItemsTitle="<br> align-items: flex-end;";
                     input.parentNode.classList = classLabelConBG;
                     break;
                 }
                 case 'ai-baseline':
                 {
                     alignItems = ' ai ai-baseline';
-                    alignItemsTitle="<br> align-items: baseline";
+                    alignItemsTitle="<br> align-items: baseline;";
                     input.parentNode.classList = classLabelConBG;
                     break;
                 }
@@ -213,7 +213,7 @@ const cambiarClasesDelEjemplo = ( labelsContainer, container, title ) =>
                 case 'fw-nowrap':
                 {
                     flexWrap = ' fw-nowrap';
-                    flexWrapTitle="<br> flex-wrap: nowrap";
+                    flexWrapTitle="<br> flex-wrap: nowrap;";
                     input.parentNode.classList = classLabelConBG;
                     break;
                 }
@@ -221,7 +221,7 @@ const cambiarClasesDelEjemplo = ( labelsContainer, container, title ) =>
                 case 'fw-wrap':
                 {
                     flexWrap = ' fw-wrap';
-                    flexWrapTitle="<br> flex-wrap: wrap";
+                    flexWrapTitle="<br> flex-wrap: wrap;";
                     input.parentNode.classList = classLabelConBG;
                     break;
                 }
@@ -229,7 +229,7 @@ const cambiarClasesDelEjemplo = ( labelsContainer, container, title ) =>
                 case 'fw-wrap-reverse':
                 {
                     flexWrap = ' fw-wrap-reverse';
-                    flexWrapTitle="<br> flex-wrap: wrap-reverse";
+                    flexWrapTitle="<br> flex-wrap: wrap-reverse;";
                     input.parentNode.classList = classLabelConBG;
                     break;
                 }
@@ -245,12 +245,10 @@ const cambiarClasesDelEjemplo = ( labelsContainer, container, title ) =>
             if( labelInput.checked)
             {
                 labels[j].classList = classLabelConBG;
-                console.log(labels[j]);
             }else{
                 labels[j].classList = classLabelSinBG;
             }
 
-                console.log();
             }
         })
     }
