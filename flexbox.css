@@ -83,6 +83,24 @@
 }
 
 
+.ai{
+    min-height: 15vh;
+}
+
+.ai .violeta{
+    display: flex;
+    align-items: flex-end;
+}
+
+.ai .naranja{
+    display: flex;
+    align-items: flex-start;
+}
+
+.ai .azul{
+    height: 15vh;
+    margin: 0;
+}
 
 
 

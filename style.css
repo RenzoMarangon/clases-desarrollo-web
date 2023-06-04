@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .main_article
 {
     background-color: #27374d8f;
@@ -35,24 +39,6 @@ label:hover{
     transform: scale(1.05);
 }
 
-.ai{
-    min-height: 15vh;
-}
-
-.ai .violeta{
-    display: flex;
-    align-items: flex-end;
-}
-
-.ai .naranja{
-    display: flex;
-    align-items: flex-start;
-}
-
-.ai .azul{
-    height: 15vh;
-    margin: 0;
-}
 
 article:last-child .block-flex{
     min-height: 45vh !important;
@@ -64,4 +50,10 @@ article:last-child .block-flex{
     }
 }
 
+
+@media screen and (min-width:1000px){
+    img{
+        max-width: 35% !important;
+    }
+}
 

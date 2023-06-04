@@ -14,3 +14,7 @@ body{
     font-family: 'Bree Serif', serif;
     color:#cacaca;
 }
+
+label{
+    text-align: center;
+}

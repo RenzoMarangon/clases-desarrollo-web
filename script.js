@@ -176,28 +176,28 @@ const cambiarClasesDelEjemplo = ( labelsContainer, container, title ) =>
                 //ALIGN ITEMS
                 case 'ai-stretch':
                 {
-                    alignItems = ' ai ai-stretch;';
+                    alignItems = ' ai ai-stretch';
                     alignItemsTitle="<br> align-items: stretch;";
                     input.parentNode.classList = classLabelConBG;
                     break;
                 }
                 case 'ai-flex-start':
                 {
-                    alignItems = ' ai ai-flex-start;';
+                    alignItems = ' ai ai-flex-start';
                     alignItemsTitle="<br> align-items: flex-start;";
                     input.parentNode.classList = classLabelConBG;
                     break;
                 }
                 case 'ai-center':
                 {
-                    alignItems = ' ai ai-center;';
+                    alignItems = ' ai ai-center';
                     alignItemsTitle="<br> align-items: center;";
                     input.parentNode.classList = classLabelConBG;
                     break;
                 }
                 case 'ai-flex-end':
                 {
-                    alignItems = ' ai ai-flex-end;';
+                    alignItems = ' ai ai-flex-end';
                     alignItemsTitle="<br> align-items: flex-end;";
                     input.parentNode.classList = classLabelConBG;
                     break;
@@ -235,7 +235,7 @@ const cambiarClasesDelEjemplo = ( labelsContainer, container, title ) =>
                 }
             }
 
-            container.classList = [`block-flex ${display} ${flexDirection} ${ flexWrap } ${justifyContent} ${alignItems}`];
+            container.classList = [`block-flex ${display} ${alignItems} ${justifyContent} ${flexDirection} ${ flexWrap } `];
             title.innerHTML = [ `${ displayTitle } ${flexDirectionTitle} ${ flexWrapTitle } ${justifyContentTitle} ${alignItemsTitle}` ]
 
             
