@@ -40,7 +40,7 @@ label:hover{
 }
 
 
-article:last-child .block-flex{
+article:nth-child(7) .block-flex{
     min-height: 45vh !important;
 }
 
@@ -57,3 +57,18 @@ article:last-child .block-flex{
     }
 }
 
+a{
+    text-decoration: none;
+    color: #aaa;
+    transition: all .5s;
+}
+
+a:hover{
+    font-size: 16px;
+    color:#fff;
+}
+
+.bonusimg{
+    width: 50vw !important;
+    background-color: black !important;
+}
