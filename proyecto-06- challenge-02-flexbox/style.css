@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #001833 ;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 550px;
+    background-color: #132740;
+    padding: 25px;
+    border-radius: 15px;
+    justify-content: space-between;
+    color:#5F728E;
+
+    box-shadow: 10px 9px 16px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 9px 16px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 9px 16px -6px rgba(0,0,0,0.75);
+}
+
+
+.card__image{
+    height: 50%;
+    border-radius: 10px;
+
+    
+}
+
+.card__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card__container__eth{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+    color:#0CF5F0;
+    font-weight: bold;
+}
+
+.card__container__days{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+    font-weight: bold;
+    color:#8CA4C8;
+}
+
+.card__line{
+
+    border-color: #97969636;
+}
+
+.card__creator{
+
+    display: flex;
+    align-items: center;
+}
+
+.card__creator__avatar{
+    width: 10%;
+    margin-right: 15px;
+    border: solid 1px #fff;
+    border-radius: 50px;
+
+
+}
+
+b{
+    color: #fff;
+}
