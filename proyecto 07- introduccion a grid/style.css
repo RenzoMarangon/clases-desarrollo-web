@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    border: 2px dashed black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas: "violeta violeta violeta"
+                         "verde rojo rojo"
+                         "verde azul turquesa"
+                         "naranja azul turquesa";
+}
+
+
+
+.verde{ background-color: rgba(172, 255, 47, 0.678); grid-area: verde;}
+.violeta{ background-color: rgba(137, 43, 226, 0.621); grid-area: violeta;}
+.rojo{ background-color: rgba(255, 0, 0, 0.61); grid-area: rojo;}
+.naranja{ background-color: rgba(255, 166, 0, 0.484); grid-area: naranja;}
+.azul{ background-color: rgba(0, 0, 255, 0.459); grid-area: azul;}
+.turquesa{ background-color: rgba(64, 224, 208, 0.489); grid-area: turquesa;}
