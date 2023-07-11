@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.header__logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    transition: all 1s ease-in-out;
+
+}
+
+.header__logo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.header__logo img{
+    width: 100px;
+}
+
+
+.header__lista{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    list-style: none;
+}
+
+.header__lista a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+ 
+}
+
+.header__lista li{
+    transition: all .5s ease-in-out;
+}
+
+.header__lista li:hover{
+    transform: scale(1.2);
+}
