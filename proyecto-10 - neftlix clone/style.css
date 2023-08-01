@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url('./fuentes/NetflixSans_W_Md.woff2') format('woff2');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #141414;
+    font-family: 'Netflix Sans', sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img{
+    width: 20%;
+    transition: all .5s;
+    cursor: pointer;
+}
+header img:hover{
+    transform: scale(1.1);
+}
+
+header a{
+    text-decoration: none;
+    color:#fff;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 100px;
+    row-gap: 25px;
+}
+
+
+.card
+{
+    border-radius: 5px;
+
+}
+
+
+
+figure, figcaption{
+    background-color: black !important;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+figcaption{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
